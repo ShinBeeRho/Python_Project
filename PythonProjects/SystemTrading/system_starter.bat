@@ -3,7 +3,7 @@
 :init
 @echo Started: %date% %time%
 echo init starts
-cd C:\Users\노신비\PycharmProjects\SystemTrading
+cd (폴더 경로 입력)
 call activate system_trading_py38_32
 @taskkill /f /im "python.exe"
 set loop=0
